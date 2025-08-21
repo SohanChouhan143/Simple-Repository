@@ -21,7 +21,7 @@ public class CitizenController {
 	@Autowired
 	private CitizenRepo repo;
 	
-	@RequestMapping("/test2")
+	@RequestMapping("/test")
 	public ResponseEntity<String> test(){
 		return new ResponseEntity<String>("Hello", HttpStatus.OK);
 	}
