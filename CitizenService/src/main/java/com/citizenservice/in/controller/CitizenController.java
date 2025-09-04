@@ -21,6 +21,12 @@ public class CitizenController {
 	@Autowired
 	private CitizenRepo repo;
 	
+	@Autowired
+	private CitizenRepo repo1;
+	
+	@Autowired
+	private CitizenRepo repo3;
+	
 	@RequestMapping("/test")
 	public ResponseEntity<String> test(){
 		return new ResponseEntity<String>("Hello", HttpStatus.OK);
